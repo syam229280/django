@@ -6,4 +6,3 @@ class Address(models.Model):
     town = models.CharField(max_length=200)
     district = models.CharField(max_length=200)
     pin_code = models.PositiveIntegerField()
-    created_on = models.DateTimeField('date published')
